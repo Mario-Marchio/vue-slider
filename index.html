@@ -14,7 +14,7 @@
             <i class="fa-solid fa-circle-arrow-left fa-shake btn" id="before" style="color: #005eff;" @click="goPrev" v-show="currentIndex"></i>
             <div class="pics">
                 <figure v-for="(pic, i) in images" v-show="currentIndex === i">
-                    <img :src="pic.images" :alt="pic.text" title="pic.title">
+                    <img :src="pic.image" :alt="pic.text" title="pic.title">
                     <figcaption>
                         <h2>{{ pic.title }}</h2>
                         <p>{{ pic.text }}</p>

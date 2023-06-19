@@ -25,7 +25,6 @@ img{
     height: 100%;
     -o-object-fit: cover;
     border-radius: 15px;
-    display: none;
 }
 
 .active{
